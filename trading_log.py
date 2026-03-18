@@ -38,7 +38,7 @@ def init_password_login():
             # 简单加密验证（匹配上面的密文）
             hashed_pw = hashlib.md5(password.encode()).hexdigest()
             # 这里用简单匹配，或你可以直接明文对比（建议用secrets）
-            if (username == "user1" and password == "123456") or (username == "user2" and password == "654321"):
+            if (username == "user1" and password == "Qzznx040304") or (username == "user2" and password == "123456"):
                 st.session_state.user = username
                 st.rerun()
             else:
