@@ -162,7 +162,7 @@ st.subheader("今天的计划")
 current_log["today_plan"] = st.text_area("", value=current_log["today_plan"], height=100)
 
 st.subheader("个人事务")
-current_log["personal_affair"] = st.text_area("", value=current_log["personal_affair"], height=60)
+current_log["personal_affair"] = st.text_area("个人事务输入框", value=current_log["personal_affair"], height=60, key="personal_affair_key")
 
 st.divider()
 
